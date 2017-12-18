@@ -3,7 +3,8 @@ TinyMCE - JavaScript Library for Rich Text Editing
 
 # *Note*
 
-We leverage TinyMCE to generate a set of utilities, located at principleware-tinymce-tailor. 
+We leverage TinyMCE to generate a set of modules, located at principleware-tinymce-tailor. 
+The resulting modules are compatible with AMD, and thus accessible in *ES 6* module system. 
 
 ## Usage 
 

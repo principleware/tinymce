@@ -30,12 +30,13 @@
 define(
   'tinymce.core.util.XHR',
   [
-    'ephox.sand.api.XMLHttpRequest',
-    'global!setTimeout',
+//    'ephox.sand.api.XMLHttpRequest',
+//    'global!setTimeout',
     'tinymce.core.util.Observable',
     'tinymce.core.util.Tools'
   ],
-  function (XMLHttpRequest, setTimeout, Observable, Tools) {
+//    function (XMLHttpRequest, setTimeout, Observable, Tools) {
+  function (Observable, Tools) {        
     var XHR = {
       /**
        * Sends a XMLHTTPRequest.

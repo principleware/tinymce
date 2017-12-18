@@ -17,11 +17,12 @@
 define(
   'tinymce.core.util.Tools',
   [
-    'global!window',
-    'tinymce.core.Env',
+//    'global!window',
+//    'tinymce.core.Env',
     'tinymce.core.util.Arr'
   ],
-  function (window, Env, Arr) {
+//    function (window, Env, Arr) {
+  function (Arr) {
     /**
      * Removes whitespace from the beginning and end of a string.
      *
@@ -357,6 +358,7 @@ define(
       return Arr.map(s.split(d || ','), trim);
     };
 
+    /*  
     var _addCacheSuffix = function (url) {
       var cacheSuffix = Env.cacheSuffix;
 
@@ -366,6 +368,7 @@ define(
 
       return url;
     };
+    */
 
     return {
       trim: trim,
@@ -455,8 +458,8 @@ define(
       walk: walk,
       createNS: createNS,
       resolve: resolve,
-      explode: explode,
-      _addCacheSuffix: _addCacheSuffix
+      explode: explode
+//      _addCacheSuffix: _addCacheSuffix
     };
   }
 );

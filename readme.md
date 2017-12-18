@@ -1,6 +1,20 @@
 TinyMCE - JavaScript Library for Rich Text Editing
 ==========================================
 
+# *Note*
+
+We leverage TinyMCE to generate a set of utilities, located at principleware-tinymce-tailor. 
+
+## Usage 
+
+To use the utilities, simply clone this particular repository and run the command as follows:
+
+> npm i tinymce/principleware-tinymce-tailor
+
+## Example
+
+> import * as tools from 'principleware-tinymce-tailor/util/Tools';
+
 Building TinyMCE
 -----------------
 Install [Node.js](https://nodejs.org/en/) on your system.
@@ -68,3 +82,6 @@ __How to Contribute to the Docs__
 Docs are hosted on Github in the [tinymce-docs](https://github.com/tinymce/tinymce-docs) repo.
 
 [How to contribute](https://www.tinymce.com/docs/advanced/contributing-docs/) to the docs, including a style guide, can be found on the TinyMCE website.
+
+<!--  LocalWords:  TinyMCE
+ -->

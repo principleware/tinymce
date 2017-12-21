@@ -1,6 +1,6 @@
 include Makefile.inc
 
-DST_DIR_BASE := principleware-tinymce-tailor
+DST_DIR_BASE := ../../src
 
 #tinymce
 include TINYMCE.mk

@@ -31,7 +31,7 @@ $(TINYMCE_TARGET_CLASSES): | tinymce_dir
 tinymce: $(TINYMCE_TARGET_CLASSES)
 	echo "tinymce updated"
 	echo "replace some prefix"
-	cd $(TINYMCE_DST_DIR) && find . -type f -exec sed -i 's/tinymce.core.util./principleware-tinymce-tailor\/util\//g' {} \;
+	cd $(TINYMCE_DST_DIR) && find . -type f -exec sed -i 's/tinymce.core.util./principleware-tinymce-tailor\/src\/util\//g' {} \;
 #	cd $(TINYMCE_DST_DIR) && find . -type f -exec sed -i 's/tinymce.core.data./principleware-tinymce-tailor\/data\//g' {} \;
 #	cd $(TINYMCE_DST_DIR) && find . -type f -exec sed -i 's/tinymce.core./principleware-tinymce\//g' {} \;
 
